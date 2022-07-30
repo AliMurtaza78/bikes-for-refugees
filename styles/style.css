@@ -179,6 +179,7 @@ p {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
+ 
   
 }
 
@@ -221,6 +222,7 @@ p {
 
 .facebook-link {
   color: var(--orange-dark);
+  text-align: right;
 }
 
 /* Sidebar */
@@ -272,5 +274,16 @@ p {
   }
 .button-top {
     background-color: #ce5f31;
+  }
+  .bottom-boxes {
+    display: inline-flex;
+
+  }
+  .article-down {
+    margin: 1rem;
+  display: flex;
+  border: 1px solid gray;
+  padding:1em;
+  flex-direction: column;
   }
 }
