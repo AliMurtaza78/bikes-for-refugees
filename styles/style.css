@@ -63,6 +63,7 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
+  gap: 2rem;
 }
 
 .navigation__item {
@@ -74,7 +75,6 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px;
 }
 
 
