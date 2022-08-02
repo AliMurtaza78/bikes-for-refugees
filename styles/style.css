@@ -135,11 +135,16 @@ p {
   color: white;
 }
 
+@media screen and (max-width:600px){
+  .hero h1 {
+    font-size: 1.6em;
+  }
+}
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: #fff;
-  padding-left: 2rem;
+  
 }
 
 
@@ -287,4 +292,4 @@ p {
   padding:1em;
   flex-direction: column;
   }
-}
+ 
